@@ -1,0 +1,152 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+}
+
+.pizza{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main {
+  margin: 0 auto;
+  width: 1140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.container__2{
+  padding: 150px !important;
+  height: 400px;
+  display: block;
+  margin-top: 450px;
+  list-style-type: none;
+}
+
+.container__2 li{
+  list-style-type: none;
+}
+
+.form input,
+.checkbox {
+  width: 30px;
+  height: 30px;
+}
+
+.form span {
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+form {
+  margin-bottom: 20px !important;
+}
+
+.none {
+  display: none;
+}
+
+.size {
+  display: flex;
+  gap: 40px;
+}
+
+
+
+select {
+  width: 200px;
+  font-size: 20px;
+}
+
+select:focus {
+  outline: none;
+}
+
+
+
+
+p span {
+  font-weight: normal;
+}
+
+.input {
+  width: 100px;
+  height: 100px;
+}
+
+
+.label {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
+.input {
+  display: block;
+  width: 110px;
+  height: 110px;
+  position: relative;
+  appearance: none;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: background .2s ease-in-out;
+}
+.input:checked{
+  background: #00000057;
+
+}
+
+
+.s25::after {
+  content: "25cm";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.s30::after {
+  content: "30cm";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.s35::after {
+  content: "35cm";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: 700;
+}
+.bread-diametr{
+  display: flex;
+  gap: 20px;
+}
